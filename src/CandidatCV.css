@@ -1,0 +1,134 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.form-section {
+  width: 40%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #1f2937;
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-fields input,
+.form-fields textarea {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* ✅ زر Enregistrer CV */
+.form-fields button {
+  background-color: #3A345C;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-fields button:hover {
+  background-color: #2c2847;
+}
+
+.form-section button:hover {
+  background-color: #f59e0b;
+}
+
+.cv-container {
+  width: 60%;
+  background: #f9fafb;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  display: flex;
+}
+
+.left {
+  background: #3A345C;
+  color: #fff;
+  width: 35%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left h1 {
+  font-size: 28px;
+  color: #fbbf24;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.left h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #d1d5db;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.left p {
+  margin: 5px 0;
+  color: #e5e7eb;
+  font-size: 14px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  color: #fbbf24;
+  border-bottom: 1px solid #fbbf24;
+  padding-bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.right {
+  background: #ffffff;
+  width: 65%;
+  padding: 30px;
+}
+
+.right h3 {
+  color: #1f2937;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.right p {
+  color: #4b5563;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
